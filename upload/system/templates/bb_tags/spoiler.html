@@ -1,0 +1,13 @@
+<div class="spoiler_border">
+<div class="spoiler_title">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>{TITLE}</td>
+    <td style="text-align: right">
+	<input type="button" value="{SHOW}" onclick="if ( this.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.getElementsByTagName('div')[1].style.display != '') {this.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.getElementsByTagName('div')[1].style.display = ''; this.innerText = ''; this.value = '{HIDE}';} else {this.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.getElementsByTagName('div')[1].style.display = 'none'; this.innerText = ''; this.value = '{SHOW}';}" />
+	</td>
+  </tr>
+</table>
+</div>
+<div class="spoiler_text" style="display: none;">{TEXT}</div>
+</div>

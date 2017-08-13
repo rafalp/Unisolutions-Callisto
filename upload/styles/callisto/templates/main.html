@@ -1,0 +1,288 @@
+<a name="top" id="top"></a>
+<div id="wrap">
+	<div id="logo">
+		<a href="./">
+		
+			<style:logo_style_default>
+				<img src="{STYLE}/logo.jpg">
+			</style:logo_style_default>
+			
+			<style:logo_text_title>
+				<div id="logo_title">{BOARD_TITLE}</div>
+			</style:logo_text_title>
+			
+			<style:logo_text_title_info>
+				<div id="logo_title">{BOARD_TITLE}</div>
+				<div id="logo_description">{BOARDT_INFO}</div>
+			</style:logo_text_title_info>
+			
+		</a>
+	</div>
+	
+	<div class="top_bg">
+		<div class="top_round_right">
+			<div class="top_round_left">
+			</div>
+		</div>
+	</div>
+	
+	<div id="body_border">	
+		
+		<div id="main_nav">
+			
+			<style:logged>
+				
+				<style:infotab>
+					
+					<div class="main_nav_left">
+				
+						<a href="javascript:switchBlockDisplay('user_infotab', 'tab_button', '{STYLE}')">
+							<div id="tab_button" style="height: 16px;">
+								<img src='{STYLE}/forum_open.png' ALT='' TITLE='' />
+							</div>
+						</a>
+						
+					</div>
+					
+				</style:infotab>
+				
+				<div class="main_nav_left">
+								
+					<img src="{STYLE}/nav_profile.png" alt="{TITLE_SETTINGS}" title="{TITLE_SETTINGS}"> <a href="{LINK_SETTINGS}" >{TITLE_SETTINGS}</a>
+					
+				</div>
+				
+			</style:logged>
+			
+			<style:today_posts>
+				<div class="main_nav_left"><a href="{LINK_TODAY_POSTS}" >{TITLE_TODAY_POSTS}</a></div>
+			</style:today_posts>
+						
+			<style:users_list>		
+				<div class="main_nav_left"><img src="{STYLE}/nav_users.png" alt="{TITLE_USERS}" title="{TITLE_USERS}"> <a href="{LINK_USERS}" >{TITLE_USERS}</a></div>
+			</style:users_list>
+								
+			<style:calendar>		
+				<div class="main_nav_left"><img src="{STYLE}/nav_calendar.png" alt="{TITLE_CALENDAR}" title="{TITLE_CALENDAR}"> <a href="{LINK_CALENDAR}" >{TITLE_CALENDAR}</a></div>
+			</style:calendar>
+			
+			<style:search>
+				<div class="main_nav_left"><img src="{STYLE}/nav_search.png" alt="{TITLE_SEARCH}" title="{TITLE_SEARCH}"> <a href="{LINK_SEARCH}" >{TITLE_SEARCH}</a></div>
+			</style:search>
+			
+			<style:tags>
+				<div class="main_nav_left"><img src="{STYLE}/nav_tags_cloud.png" alt="{TITLE_TAGS}" title="{TITLE_TAGS}"> <a href="{LINK_TAGS}" >{TITLE_TAGS}</a></div>
+			</style:tags>
+			
+			<div class="main_nav_left"><img src="{STYLE}/nav_help.png" alt="{TITLE_HELP}" title="{TITLE_HELP}"> <a href="{LINK_HELP}" >{TITLE_HELP}</a></div>
+			
+			<style:logged>
+			
+				<div class="main_nav_left"><img src="{STYLE}/nav_logout.png" alt="{TITLE_LOGOUT}" title="{TITLE_LOGOUT}"> <a href="{LINK_LOGOUT}" >{TITLE_LOGOUT}</a></div>
+			
+			</style:logged>
+			
+			<style:guidelines>
+				<div class="main_nav_right"><img src="{STYLE}/nav_guidelines.png" alt="{TITLE_GUIDELINES}" title="{TITLE_GUIDELINES}"> <a href="{LINK_GUIDELINES}" >{TITLE_GUIDELINES}</a></div>
+			</style:guidelines>
+			
+			<style:siteurl>
+				<div class="main_nav_right"><img src="{STYLE}/nav_site.png" alt="{TITLE_SITEURL}" title="{TITLE_SITEURL}"> <a href="{LINK_SITEURL}" >{TITLE_SITEURL}</a></div>
+			</style:siteurl>
+		
+		</div>
+		<div id="head_ops">
+			<style:infotab>
+			
+				<div id="user_infotab">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" id="infotab">
+					  <tr>
+						<style:user_avatar><td id="infotab_avatar">{USER_AVATAR_IMAGE}</td></style:user_avatar>
+						<td id="infotab_profile" style="width: 100%">
+							<div class="post_autor"><a href="{USER_PROFILE_LINK}">{USER_NAME}</a></div>
+							
+							{USER_TITLE}<br />{USER_RANK}
+							
+						</td>
+						<td id="infotab_profile" style="width: 300px; vertical-align: top;" nowrap="nowrap">
+							<div class="post_profile_block">
+								
+								<style:reps><b>{PROFILE_REPUTATION}:</b> {USER_REPUTATION}<br /></style:reps>
+								<style:warns><b>{PROFILE_WARNS}:</b> {USER_WARNS}<br /></style:warns>
+								<b>{PROFILE_POSTS}:</b> {USER_POSTS}<br />
+								<b>{PROFILE_LAST_POSTS}:</b> {USER_LAST_POST}<br />
+								<b>{PROFILE_GROUP}:</b> {USER_GROUP}
+								{FIELDS}
+								
+							</div>
+						</td>
+					  </tr>
+					</table>
+				</div>
+						
+				<script type="text/javascript">
+								
+					getBlockDisplay('user_infotab', 'tab_button', '{STYLE}')
+					
+				</script>
+							
+			</style:infotab>
+			
+			<table width="100%" border="0" cellspacing="4" cellpadding="0">
+			  <tr>
+				
+				<style:guest>
+										
+					<td id="red_bar_message">
+				
+						<b>{GUEST_HELLO_TITLE}</b>
+						<br/>
+						{GUEST_HELLO_TEXT} (<a href="{LINK_LOGIN}" >{TITLE_LOGIN}</a>
+						<style:register> - <a href="{LINK_REGISTER}" >{TITLE_REGISTER}</a></style:register>)
+					
+					</td>
+					
+				</style:guest>	
+				<style:logged>
+			
+					<td id="top_hello">
+					
+						<b>{USER_HELLO_TEXT}</b><br /><br />
+						<b>{LAST_VISIT_TEXT}:</b> {LAST_VISIT_TIME}<br />
+						
+						<style:new_posts>
+						<a href="{LINK_NEW_POSTS}" >{TITLE_NEW_POSTS}</a>
+						</style:new_posts>
+						
+						<style:new_posts>
+						<style:messenger>
+						 - 
+						</style:messenger>
+						</style:new_posts>
+						
+						<style:messenger>
+							<a href="{LINK_MESSENGER}" >{TITLE_MESSENGER}</a>
+						</style:messenger>
+						
+					</td>
+					
+				</style:logged>	
+			
+				
+				<style:logged>
+					<style:unread_messages>
+						<td class="yellow_bar">
+							<img src="{STYLE}/new_pm.png" alt="{NEW_PRIVATE_MESSAGES}"> {NEW_PRIVATE_MESSAGES}<br /><br />
+							<a href="{LINK_MESSENGER}">{READ_NEW_MESSAGES}</a>
+						</td>
+					</style:unread_messages>
+				</style:logged>
+				
+				<style:quick_login>
+					<td id="login_bar">
+						<form action="{QUICK_LOGIN_URL}" method="post">
+							<table width="100%" border="0" cellspacing="0" cellpadding="2">
+							  <tr>
+								<td nowrap="nowrap"><b>{USER_LOGIN_TEXT}:</b> <input name="user_login" type="text"/></td>
+								<td nowrap="nowrap"><b>{USER_LOGIN_REMEBER}:</b> <input name="user_remember" type="checkbox" value="1" /></td>
+							  </tr>
+							  <tr>
+								<td nowrap="nowrap"><b>{USER_PASS_TEXT}:</b> <input name="user_pass" type="password" /></td>
+								<td><input name="" type="submit" value="{QUICK_LOGIN_BUTTON}" /></td>
+							  </tr>
+							</table>
+						</form>
+					</td>
+				</style:quick_login>
+			
+			  </tr>
+			</table>
+			
+			<style:news>
+				<div id="newsblock">
+					<b>{NEWS_TITLE}:</b><br />
+					{NEWS_CONTENT}
+				</div>
+			</style:news>
+			
+		</div>
+		
+		<style:logged>	
+			<style:page_closed>
+				<div class="red_bar">
+					<img src="{STYLE}/alert.gif"> {PAGE_IS_CLOSED} <img src="{STYLE}/alert.gif">
+				</div>
+			</style:page_closed>
+		</style:logged>	
+				
+		<path>
+		<div class="breadcrumbs">
+				<img src="{STYLE}/first_bread.png"> 
+				
+				<breadcrumbs>
+					<style:path_standard>
+						<element><a href="{URL}" target="{TARGET}">{TITLE}</a></element><element_last> > <span class="last_breadcrumb">{TITLE}</span></element_last><spacer> > </spacer>
+					</style:path_standard>
+					<style:path_step>
+						<element><a href="{URL}" target="{TARGET}">{TITLE}</a></element><element_last><br /><img src="{STYLE}/step.gif"> <span class="last_breadcrumb">{TITLE}</span></element_last><spacer> > </spacer>
+					</style:path_step>
+				</breadcrumbs>
+		</div>
+		</path>
+		
+		{CONTENT}
+		
+		<style:logged>
+			<style:page_closed>
+				<div class="red_bar">
+					<img src="{STYLE}/alert.gif"> {PAGE_IS_CLOSED} <img src="{STYLE}/alert.gif">
+				</div>
+			</style:page_closed>
+		</style:logged>
+		
+		<style:repeat_breadcrumbs>
+			
+			<div class="end_breadcrumb">
+				<img src="{STYLE}/first_bread.png"> 
+				{BREADCRUMBS}
+			</div>
+			
+		</style:repeat_breadcrumbs>
+		<div id="foot_ops">
+						
+			<div>
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<style:skinselect><td nowrap="nowrap" class="foot_ops_cell">{SKIN_SELECT}</td></style:skinselect>
+						<style:langselect><td nowrap="nowrap" class="foot_ops_cell">{LANGUAGE_SELECT}</td></style:langselect>
+							
+						<td nowrap="nowrap" class="foot_ops_cell"><a href="mailto:{LINK_CONTACT}" >{TITLE_CONTACT}</a></td>
+						
+						<td style="width: 100%; text-align: center;" nowrap="nowrap"><a href="{LINK_MODE_CHANGE}">{TITLE_MODE_CHANGE}</a></td>
+						
+						<style:admin>
+							<td nowrap="nowrap" class="foot_ops_cell_r"><a href="{LINK_ADMIN}" >{TITLE_ADMIN}</a></td>
+						</style:admin>
+						
+						<td nowrap="nowrap" class="foot_ops_cell_r"><div id="foot_time">{SITE_TIME}</div></td>
+									
+						<style:rss><td nowrap="nowrap" class="foot_ops_cell_r"><a href="{RSS_LINK}"><img src="{STYLE}/rss.png" title="{RSS_TITLE}"></a></td></style:rss>
+						
+					</tr>
+				</table>
+			</div>
+			
+		</div>
+			
+	</div>
+	<div class="bottom_bg">
+		<div class="bottom_round_right">
+			<div class="bottom_round_left">
+			</div>
+		</div>
+	</div>
+	
+	<div id="credits">
+		{CREDITS}
+	</div>	
+</div>

@@ -1,0 +1,66 @@
+<div id="wrap">
+
+	<div id="header">
+	
+		<div class="nav_link">
+			{SECTION_MAIN_IMG} <a href="{SECTION_MAIN_URL}" title="{SECTION_MAIN_TITLE}">{SECTION_MAIN_TITLE}</a>
+		</div>
+	
+		<div class="nav_link">
+			{SECTION_FORUMS_IMG} <a href="{SECTION_FORUMS_URL}" title="{SECTION_FORUMS_TITLE}">{SECTION_FORUMS_TITLE}</a>
+		</div>
+		
+		<div class="nav_link">
+			{SECTION_USERS_IMG} <a href="{SECTION_USERS_URL}" title="{SECTION_USERS_TITLE}">{SECTION_USERS_TITLE}</a>
+		</div>
+		
+		<div class="nav_link">
+			{SECTION_SETTINGS_IMG} <a href="{SECTION_SETTINGS_URL}" title="{SECTION_SETTINGS_TITLE}">{SECTION_SETTINGS_TITLE}</a>
+		</div>
+		
+		<div class="nav_link">
+			{SECTION_LOOK_IMG} <a href="{SECTION_LOOK_URL}" title="{SECTION_LOOK_TITLE}">{SECTION_LOOK_TITLE}</a>
+		</div>
+		
+		<div class="nav_link">
+			{SECTION_ADMIN_IMG} <a href="{SECTION_ADMIN_URL}" title="{SECTION_ADMIN_TITLE}">{SECTION_ADMIN_TITLE}</a>
+		</div>
+		
+		<div id="logo">
+			<a href="./" name="top" id="top">
+				<img src="{STYLE}/logo.jpg">
+			</a>
+		</div>
+
+	</div>
+	<div id="main_border">
+	
+		<table class="layout">
+		  <tr>
+			<blocks><td class="layout_blocks">{BLOCKS}</td></blocks>
+			<td class="layout_center">
+			
+			<div id="subtools">
+				
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+					<td style="width: 100%">
+						<path>
+							<breadcrumbs><element><a href="{URL}" target="{TARGET}">{TITLE}</a></element><element_last> > <span class="last_breadcrumb">{TITLE}</span></element_last><spacer> > </spacer></breadcrumbs>
+						</path>
+					</td>
+					<td nowrap="nowrap">{ACP_HELLO} [ <a href="{SHOW_PAGE_URL}">{SHOW_PAGE_TITLE}</a> | <a href="{LOGOUT_URL}">{LOGOUT_TITLE}</a> ]</td>
+				  </tr>
+				</table>
+		
+			</div>
+			
+			{CONTENT}
+			
+			</td>
+		  </tr>
+		</table>
+	
+	</div>
+	<div id="foot">{CREDITS} <a href="#top"><img src="{STYLE}/go_up.png" border="0"></a></div>
+</div>

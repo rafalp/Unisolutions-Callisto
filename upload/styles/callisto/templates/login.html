@@ -1,0 +1,59 @@
+<table class="opt" align="center">
+<tr>
+	<td class="opt_row2" style="text-align: left">
+	<message><div id="loging_message">{MESSAGE}</div></message>
+	</td>
+</tr>
+<error>
+<tr>
+	<td class="opt_row3" style="text-align: center">
+	<div id="loging_error">{ERROR_MESSAGE}</div>
+	</td>
+</tr>
+</error>
+<tr>
+	<td class="opt_row1">
+	  <table width="100%">
+        <tr>
+          <td style="width: 60%; vertical-align: top">
+		  <div class="sub_title">{SECTION_LOGIN}</div>
+		  <div class="sub_border">
+			
+			<table width="100%" border="0" cellspacing="0" cellpadding="6">
+			  <tr>
+				<td><b>{LOGIN}:</b></td>
+				<td style="width: 70%"><input name="user_login" type="text" style="width: 100%;" /></td>
+			  </tr>
+			  <tr>
+				<td><b>{PASSWORD}:</b></td>
+				<td style="width: 70%"><input name="user_pass" type="password" style="width: 100%;" /></td>
+			  </tr>
+			</table>
+
+		  </div>
+		  </td>
+          <td style="vertical-align: top">
+		  <div class="sub_title">{SECTION_OPS}</div>
+		  <div class="sub_border">
+		  	
+				<table width="100%" border="0" cellspacing="0" cellpadding="6">
+				<remember>
+				 	<tr>
+						<td>
+						  <input name="user_remember" type="checkbox" value="checkbox" {REMEMBER_ME_CHECKED} />
+						</td>
+						<td style="width: 100%"><b>{REMEMBER_ME}</b></td>
+				 	</tr>
+				</remember>
+				 	<tr>
+						<td><input name="user_hidden" type="checkbox" value="checkbox" {HIDDEN_CHECKED} /></td>
+						<td style="width: 100%"><b>{HIDDEN}</b></td>
+				 	</tr>
+				</table>
+						  
+		  </div>
+		  </td>
+        </tr>
+      </table>	</td>
+</tr>
+</table>

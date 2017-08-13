@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style>
+	<details>
+		<name>Callisto Simple Style</name>
+		<author>Unisolutions</author>
+		<www>http://www.unisolutions.pl</www>
+	</details>
+	<imageset>
+	</imageset>
+	<templates>
+		<main>main.html</main>
+		<simple_main>simple_main.html</simple_main>
+		<block>block.htm</block>
+		<paginator>paginator.htm</paginator>
+	</templates>
+</style>

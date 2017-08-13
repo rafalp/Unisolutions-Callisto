@@ -1,0 +1,81 @@
+<tr>
+	<td class="opt_row3" colspan="2"><strong>{NAME}</strong></td>
+</tr>
+<tr>
+	<td class="opt_row1" style="width: 40%; vertical-align: top">
+	<help><div class="funct_help">{HELP}</div></help>
+	
+	<style:emoticons>
+	{EMOS}
+	</style:emoticons>
+	
+	<style:bbtags>
+	
+	{CUSTOM_TAGS}
+	
+	</style:bbtags>
+	
+	<hr />
+	<a href="javascript:increaseTextBoxSize('{VARIABLE}')">{PLUS}</a>
+	<a href="javascript:decreaseTextBoxSize('{VARIABLE}')">{MINUS}</a>
+	<a href="javascript:resetTextBoxSize('{VARIABLE}')">{RESET}</a>
+
+	
+	 </td>
+	<td class="opt_row2" style=" vertical-align: top">
+	<div class="editor_border">
+	<style:bbtags>
+		<div class="editor_tools">
+			<a href="javascript:addSimpleTag( '{VARIABLE}', '[b]', '[/b]')"><img src="{BOLD_IMAGE}" border="0" title="{BOLD_NAME}"></a>
+			<a href="javascript:addSimpleTag( '{VARIABLE}', '[i]', '[/i]')"><img src="{ITALIC_IMAGE}" border="0" title="{ITALIC_NAME}"></a>
+			<a href="javascript:addSimpleTag( '{VARIABLE}', '[u]', '[/u]')"><img src="{UNDERLINE_IMAGE}" border="0" title="{UNDERLINE_NAME}"></a>
+			<a href="javascript:addSimpleTag( '{VARIABLE}', '[s]', '[/s]')"><img src="{STROKE_IMAGE}" border="0" title="{STROKE_NAME}"></a>
+			
+			{SPACER}
+			
+			<a href="javascript:addSimpleTag( '{VARIABLE}', '[left]', '[/left]')"><img src="{JUSTIFY_LEFT_IMAGE}" border="0" title="{JUSTIFY_LEFT_NAME}"></a>
+			<a href="javascript:addSimpleTag( '{VARIABLE}', '[center]', '[/center]')"><img src="{JUSTIFY_CENTER_IMAGE}" border="0" title="{JUSTIFY_CENTER_NAME}"></a>
+			<a href="javascript:addSimpleTag( '{VARIABLE}', '[right]', '[/right]')"><img src="{JUSTIFY_RIGHT_IMAGE}" border="0" title="{JUSTIFY_RIGHT_NAME}"></a>
+				
+			{SPACER}
+				
+			<a href="javascript:addSimpleTag( '{VARIABLE}', '[sup]', '[/sup]')"><img src="{SUPERSCRIPT_IMAGE}" border="0" title="{SUPERSCRIPT_NAME}"></a>
+			<a href="javascript:addSimpleTag( '{VARIABLE}', '[sub]', '[/sub]')"><img src="{SUBSCRIPT_IMAGE}" border="0" title="{SUBSCRIPT_NAME}"></a>
+			
+			{SPACER}
+			
+			<select id="{VARIABLE}_size" name="{VARIABLE}_size" onchange="addSizeTag( '{VARIABLE}', this.name )">{SIZES_LIST}</select>
+				
+			{SPACER}
+			
+			<select id="{VARIABLE}_color" name="{VARIABLE}_color" onchange="addColorTag( '{VARIABLE}', this.name )">{COLORS_LIST}</select>
+			
+		</div>
+		
+		<div class="editor_tools">
+			<a href="javascript:addSimpleTag( '{VARIABLE}', '[url]', '[/url]')"><img src="{URL_IMAGE}" border="0" title="{URL_NAME}"></a>
+			<a href="javascript:addSimpleTag( '{VARIABLE}', '[mail]', '[/mail]')"><img src="{MAIL_IMAGE}" border="0" title="{MAIL_NAME}"></a>
+			<a href="javascript:addSimpleTag( '{VARIABLE}', '[ftp]', '[/ftp]')"><img src="{FTP_IMAGE}" border="0" title="{FTP_NAME}"></a>
+			
+			{SPACER}
+			
+			<a href="javascript:addSimpleTag( '{VARIABLE}', '[img]', '[/img]')"><img src="{IMG_IMAGE}" border="0" title="{IMG_NAME}"></a>
+			
+			{SPACER}
+			
+			<a href="javascript:addSimpleTag( '{VARIABLE}', '[quote]', '[/quote]')"><img src="{QUOTE_IMAGE}" border="0" title="{QUOTE_NAME}"></a>
+			<a href="javascript:addSimpleTag( '{VARIABLE}', '[code]', '[/code]')"><img src="{CODE_IMAGE}" border="0" title="{CODE_NAME}"></a>
+			<a href="javascript:addSimpleTag( '{VARIABLE}', '[spoiler]', '[/spoiler]')"><img src="{SPOILER_IMAGE}" border="0" title="{SPOILER_NAME}"></a>
+			
+			{SPACER}
+			
+			<a href="javascript:addEmo( '{VARIABLE}', '[hr]')"><img src="{LINE_IMAGE}" border="0" title="{LINE_NAME}"></a>
+						
+		</div>
+		
+	</style:bbtags>
+	<div class="editor_field">
+	<textarea name="{VARIABLE}" id="{VARIABLE}" style="width: 100%" rows="13" onselect="storeCaret(this)" onclick="storeCaret(this)" onkeyup="storeCaret(this)" onchange="storeCaret(this)">{TEXT}</textarea></div>
+	</div>
+	</td>
+</tr>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style>
+	<details>
+		<name>Callisto ACP Style</name>
+		<author>Unisolutions</author>
+		<www>http://www.unisolutions.pl</www>
+	</details>
+	<imageset>
+		<success>ok.png</success>
+		<error>error.png</error>
+		<go_up>go-up.png</go_up>
+		<go_down>go-down.png</go_down>
+		<pip>star.gif</pip>
+		<edit>edit.png</edit>
+		<delete>delete.png</delete>
+		<resync>resync.png</resync>
+		<plus>plus.png</plus>
+		<minus>minus.png</minus>
+		<refresh>refresh.png</refresh>
+		<setting>setting.png</setting>
+		<tree-i>tree-i.gif</tree-i>
+		<tree-t>tree-t.gif</tree-t>
+		<tree-l>tree-l.gif</tree-l>
+		<tree-s>tree-s.gif</tree-s>
+		<loader>loader.gif</loader>
+		<loader_small>loader_small.gif</loader_small>
+	</imageset>
+	<templates>
+		<main>main.html</main>
+		<simple_main>simple_main.html</simple_main>
+		<inblock_menu>inblock_menu.html</inblock_menu>
+		<block>block.htm</block>
+		<form_block>block_form.htm</form_block>
+		<error_block>error_block.htm</error_block>
+		<info_block>info_block.htm</info_block>
+		<login_form>login.html</login_form>
+		<bar>bar.html</bar>
+		<paginator>paginator.htm</paginator>
+	</templates>
+</style>

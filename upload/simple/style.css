@@ -1,0 +1,153 @@
+BODY{
+font-family:Arial, Helvetica, sans-serif;
+background-color: #FFFFFF;
+font-size:14px;
+}
+
+a:link, a:visited{
+	text-decoration: underline;
+}
+
+#top_head{
+margin-bottom: 8px;
+}
+
+#logo_title{
+font-size: 24px;
+font-weight:bold;
+}
+
+#logo_description{
+font-style: italic;
+}
+
+#breadcrumbs{
+padding: 4px;
+font-size: 12px;
+border-style: solid;
+border-color: #CCCCCC;
+border-width: 1px;
+margin-bottom: 8px;
+}
+
+#body_border{
+border-style: solid;
+border-color: #CCCCCC;
+border-width: 1px;
+padding: 6px;
+}
+
+#foot_ops{
+margin-top: 8px;
+border-color: #CCCCCC;
+border-style: solid;
+border-width: 1px;
+}
+
+#foot_ops td{
+padding: 2px;
+}
+
+.foot_ops_cell{
+border-right-color: #CCCCCC;
+border-right-style: solid;
+border-right-width: 1px;
+}
+
+#credits{
+margin-top: 8px;
+font-size: 12px;
+text-align: right;
+color: #979994;
+}
+
+.blockhead{
+font-size:12px;
+text-align:left;
+background-color: #DADDD6;
+font-weight: bolder;
+padding: 4px;
+margin-bottom: 1px;
+}
+
+.blockborder{
+margin-top: 6px;
+padding: 1px;
+background-color: #FFFFFF;
+border-color: #C4C7C0;
+border-width: 1px;
+border-style: solid;
+}
+
+.blocktext{
+padding: 5px;
+}
+
+.quote_border{
+border-color: #B1C9E8;
+border-style: solid;
+border-width: 1px;
+padding: 1px;
+}
+
+.quote_title{
+background-color: #C8DFFF;
+color: #000000;
+font-weight: bold;
+padding: 4px;
+}
+
+.quote_text{
+background-color: #FFFFFF;
+color: #000000;
+padding: 4px;
+}
+
+.code_border{
+border-color: #FF7900;
+border-style: solid;
+border-width: 1px;
+padding: 1px;
+}
+
+.code_title{
+background-color: #FFE1C7;
+color: #000000;
+font-weight: bold;
+padding: 4px;
+}
+
+.code_text{
+background-color: #FFFFFF;
+color: #9D030B;
+padding: 4px;
+}
+
+.spoiler_border{
+border-color: #BCD99E;
+border-style: solid;
+border-width: 1px;
+padding: 1px;
+}
+
+.spoiler_title{
+background-color: #BCD99E;
+color: #000000;
+font-weight: bold;
+padding: 4px;
+}
+
+.spoiler_text{
+background-color: #FFFFFF;
+padding: 4px;
+}
+
+img{
+vertical-align: middle;
+border: none;
+}
+
+h1{
+margin-top: 0px;
+margin-bottom: 2px;
+}

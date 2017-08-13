@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style>
+	<details>
+		<name>Callisto Installator Style</name>
+		<author>Unisolutions</author>
+		<www>http://www.unisolutions.pl</www>
+	</details>
+	<imageset>
+		<success>ok.png</success>
+		<error>error.png</error>
+	</imageset>
+	<templates>
+		<main>main.html</main>
+		<form_block>block_form.htm</form_block>
+		<error_block>error_block.htm</error_block>
+	</templates>
+</style>
